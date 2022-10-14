@@ -56,12 +56,6 @@ if (gameId === 2000) {
    }  
   }
 
-  const moveCarLeft = () => {
-    if (carX >= 0 + 50) {
-      carX -= 5;
-    }
-  }
-  
   document.addEventListener("keydown", event => {
     console.log(event); 
     if (event.code === "ArrowLeft") {
